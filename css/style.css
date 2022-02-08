@@ -426,6 +426,8 @@ justify-content: space-between;
 .happy {
     width: 100%;
     margin-top: 172px;
+    margin-bottom: 250px;
+
 }
 .main-customers {
     display: flex;
@@ -482,9 +484,53 @@ justify-content: space-between;
 footer {
     background-color: #E1E8F8;
     width: 100%;
-    margin-top: 250px;
     
 }
-. {
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon {
+    width: 44px;
+    height: 44px;
+}
+.icon img {
+    width: 100%;
+}
+.footer-container {
+    padding: 0 29.5px 0 41px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon:nth-child(2) {
+    margin-left: 27px ;
+    margin-right: 27px;
+}
+
+.icon:nth-child(3) {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+
+}
+.instagram2 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.instagram3 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 
 }
