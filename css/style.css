@@ -236,11 +236,16 @@
 }
 .tours {
     flex-wrap: wrap;
+
+
+    
   
 }
 .tour-box {
     max-width: 552px;
-    width: 100%;
+    width: 30%;
+    margin-left: 20px;
+ 
     
 
 }
@@ -439,7 +444,7 @@ justify-content: space-between;
 }
 .customer-text {
     max-width: 712px;
-    width: 100%;
+    width: 50%;
 }
 .cust-text {
     font-family: 'Proxima Nova Alt';
@@ -535,4 +540,74 @@ footer {
     top: 50%;
     transform: translate(-50%, -50%);
 
+}
+
+/* @media (max-width: 1680px) {
+    .tour-box {
+        max-width: 452px;
+        width: 100%;
+    }
+    .guide-boxes:nth-child(1) {
+        max-width: 800px;
+    }
+    .guide-boxes:nth-child(2) {
+        max-width: 655px;
+    }
+} */
+
+@media (max-width: 480px) {
+    body {
+        /* padding-top: px; */
+    }
+    .tour-box {
+        /* max-width: 452px; */
+        width: 100%;
+        margin: 20px auto;
+        /* margin-top: 20px; */
+    }
+    .guide-boxes:nth-child(1) {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .guide-boxes:nth-child(2) {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .main-nav {
+        display: none;
+    }
+    .box-info {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+    }
+    /* .box-logos {
+        display: flex;
+        justify-content: center;
+    } */
+    .customer-text {
+        width: 100%;
+        margin: 20px auto;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .destinations {
+        width: 100%;
+        margin-top: 50px auto;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+    .section-info {
+        height: 100%;
+        /* margin-top: 15px; */
+    }
 }
