@@ -249,6 +249,16 @@
     
 
 }
+.tour-box:hover{
+    background-color: rgb(252, 251, 255, 1);
+    /* background: transparent; */
+    transition: 0.4s;
+    opacity: 0.5;
+    /* width: 100%; */
+    /* position: absolute; */
+    /* left: 0;
+    top: 0; */
+}
 .icons-price {
     display: flex;
     justify-content: space-between;
@@ -559,11 +569,37 @@ footer {
     body {
         /* padding-top: px; */
     }
+    .text-cover {
+        display: none;
+    }
+    .travel {
+        display: none;
+    }
+    .block {
+        width: 100%;
+    }
     .tour-box {
         /* max-width: 452px; */
         width: 100%;
         margin: 20px auto;
+        position: relative;
         /* margin-top: 20px; */
+    }
+   
+        
+    .bcg-cover {
+        background-color: rgba(0, 0,0, 0.1);
+        /* opacity: 0.5; */
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        /* display: visible; */
+    }
+    .tour-box:hover{
+        /* background-color: #4468E2; */
+        position: relative;
     }
     .guide-boxes:nth-child(1) {
         width: 100%;
