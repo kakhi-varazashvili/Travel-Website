@@ -552,7 +552,7 @@ footer {
 
 }
 
-/* @media (max-width: 1680px) {
+@media (max-width: 1680px) {
     .tour-box {
         max-width: 452px;
         width: 100%;
@@ -563,7 +563,7 @@ footer {
     .guide-boxes:nth-child(2) {
         max-width: 655px;
     }
-} */
+}
 
 @media (max-width: 480px) {
     body {
