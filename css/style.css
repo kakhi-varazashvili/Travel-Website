@@ -1,5 +1,5 @@
 .container {
-    max-width: 1780px;
+    width: 1780px;
     width: 100%;
     margin: 0 auto;
     /* padding: 0 20px; */
@@ -24,16 +24,10 @@
     justify-content: space-between;
     align-items: center;
 }
-.logo {
-    /* margin-right: 499px; */
-}
-/* .logo img {
-    width: 100%;
-} */
+
 
 .main-nav {
-    /* max-width: 598px;
-    width: 100%; */
+
     display: flex;
     flex-grow: 1;
     justify-content:center;
@@ -57,6 +51,7 @@
     text-align: center;
     background-color: #4468E2;
     border-radius: 20px;
+    display: flex;
 }
 
 .cover {
@@ -151,9 +146,9 @@
     margin-bottom: 178.5px;
     padding-top: 29px;
     /* background-color: rgba(0, 0, 0, 0.2); */
-    height: 293.40px;
+    /* height: 293.40px; */
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-between;
 }
 .box-info{
@@ -236,18 +231,11 @@
 }
 .tours {
     flex-wrap: wrap;
-
-
-    
-  
 }
 .tour-box {
     max-width: 552px;
     width: 30%;
     margin-left: 20px;
- 
-    
-
 }
 .tour-box:hover{
     background-color: rgb(252, 251, 255, 1);
@@ -284,14 +272,12 @@
     height: 66px;
     overflow: hidden;
     letter-spacing: -0.2px;
-
 }
 .icons-main-box {
     max-width: 125px;
     width: 100%;
     display: flex;
     justify-content: space-between;
- 
 }
 .icons-box {
     background-color: #1C4961;
@@ -314,12 +300,11 @@
     max-width: 17.06px;
     width: 100%;
 }
-
 .icons-price {
-margin: 18px  0 19px;
-align-items: center;
-display: flex;
-justify-content: space-between;
+    margin: 18px  0 19px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
 .price {
     font-size: 31px;
@@ -337,18 +322,17 @@ justify-content: space-between;
     text-align: left;
     font-size: 22px;
     color: #163235;
-
 }
-
 .night {
     text-align: right;
     font-size: 22px;
     color: #163235;
 }
-
 /* SECTION BLOGS */
 
 .blogs {
+    max-width: 1780px;
+    width: 100%;
     font-size: 40px;
     font-weight: bold;
     color: black;
@@ -356,41 +340,50 @@ justify-content: space-between;
     text-transform: capitalize;
     text-align: center;
     margin-top: 172.5px;
+    align-items: center;
     
 }
-.main-guide {
-    
 
-  
-
-}
 .main-guide-boxes {
     max-width: 1780px;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+
     align-items: center;
-    justify-content: space-between;
     margin-top: 73px;
+    display: flex;
+    flex-wrap: nowrap ;
+    flex-direction: row;
+
 
 }
-.guide-boxes {
-    position: relative;
-    
+.left-guide-box img {
+    width: 100%;
+    height: 100%;
 }
+
 .guide-boxes img {
     width: 100%;
     height: 100%;
     border-radius: 5px;
 }
-.guide-boxes:nth-child(1) {
+.left-guide-box {
     max-width: 965px;
-    width: 100%;
+    width: 122%;
     overflow: hidden;
+    position: relative;
+
 }
-.guide-boxes:nth-child(2) {
+.right-guide-box {
     max-width: 785px;
     width: 100%;
+    height: 100%;
+
+}
+.guide-boxes {
+    max-width: 785px;
+    width: 100%;
+    position: relative;
 }
 
 
@@ -446,7 +439,7 @@ justify-content: space-between;
 }
 .main-customers {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     padding-top: 65.7px;
@@ -551,99 +544,173 @@ footer {
     transform: translate(-50%, -50%);
 
 }
-
-@media (max-width: 1680px) {
-    .tour-box {
-        max-width: 452px;
-        width: 100%;
-    }
-    .guide-boxes:nth-child(1) {
-        max-width: 800px;
+@media (max-width: 1600px) {
+    .left-guide-box {
+        max-width: 855px;
+        width: 122%;
+        overflow: hidden;
     }
     .guide-boxes:nth-child(2) {
-        max-width: 655px;
+        max-width: 700px;
+        width: 100%;
     }
+
 }
-
-@media (max-width: 480px) {
-    body {
-        /* padding-top: px; */
-    }
-    .text-cover {
-        display: none;
-    }
-    .travel {
-        display: none;
-    }
-    .block {
-        width: 100%;
-    }
-    .tour-box {
-        /* max-width: 452px; */
-        width: 100%;
-        margin: 20px auto;
-        position: relative;
-        /* margin-top: 20px; */
-    }
-   
-        
-    .bcg-cover {
-        background-color: rgba(0, 0,0, 0.1);
-        /* opacity: 0.5; */
-        height: 100%;
-        width: 100%;
-        position: absolute;
-        left: 0;
-        top: 0;
-        /* display: visible; */
-    }
-    .tour-box:hover{
-        /* background-color: #4468E2; */
-        position: relative;
-    }
-    .guide-boxes:nth-child(1) {
-        width: 100%;
-        margin: 0 auto;
+@media (max-width: 1536px) {
+    .left-guide-box {
+        max-width: 855px;
+        width: 122%;
+        overflow: hidden;
     }
     .guide-boxes:nth-child(2) {
+        max-width: 700px;
         width: 100%;
-        margin: 0 auto;
     }
-    .main-nav {
-        display: none;
+    .kili-text {
+        font-size: 40px;
+        color: #ffffff;
+        line-height: 61px;
+        font-family: 'Proxima Nova Alt';
+        font-weight: bold;
+    }
+    .travel-text {
+        color: #ffffff;
+        font-size: 27px;
+        font-weight: bold;
+        font-family: 'Proxima Nova Alt';
     }
     .box-info {
+        padding: 10px 26px;;
+    }
+    .main-customers {
         display: flex;
-        justify-content: center;
-        text-align: center;
-        width: 100%;
-        margin: 0 auto;
-        flex-direction: column;
+        justify-content: space-around;
         align-items: center;
-        /* justify-content: center; */
-    }
-    /* .box-logos {
-        display: flex;
-        justify-content: center;
-    } */
-    .customer-text {
-        width: 100%;
-        margin: 20px auto;
-    }
-    .container {
-        display: flex;
-        flex-direction: column;
-    }
-    .destinations {
-        width: 100%;
-        margin-top: 50px auto;
-    }
-    .menu {
-        display: flex;
-        flex-direction: column;
-    }
-    .section-info {
-        height: 100%;
-        /* margin-top: 15px; */
+        flex-wrap: wrap;
+        padding: 0 20px;
+        padding-top: 65.7px;
+        margin-top: 73px;
     }
 }
+
+@media (max-width: 1440px) {
+    .left-guide-box {
+        max-width: 770px;
+        width: 100%;
+        overflow: hidden;
+    }
+    .guide-boxes:nth-child(2) {
+        max-width: 630px;
+        width: 100%;
+    }
+    .kili-text {
+        font-size: 40px;
+        color: #ffffff;
+        line-height: 61px;
+        font-family: 'Proxima Nova Alt';
+        font-weight: bold;
+    }
+    .travel-text {
+        color: #ffffff;
+        font-size: 27px;
+        font-weight: bold;
+        font-family: 'Proxima Nova Alt';
+    }
+    .box-info {
+        max-width: 340px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 16px;
+        box-shadow: 10px 40px 50px #e5e9f6;
+    }
+    .tour-box h2 {
+        font-size: 32px;
+    }
+    .tour-box p {
+        font-size: 22px;
+        line-height: 35px;
+        color: #163235;
+        max-width: 552px;
+        width: 100%;
+        height: 66px;
+        overflow: hidden;
+        letter-spacing: -0.2px;
+    }
+    .price {
+        font-size: 26px ;
+    }
+    .main-customers {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0 20px;
+        padding-top: 65.7px;
+        margin-top: 73px;
+    }
+
+}
+/* 
+@media (max-width: 1366px) {
+    .left-guide-box {
+        max-width: 735px;
+        width: 100%;
+        overflow: hidden;
+    }
+    .guide-boxes:nth-child(2) {
+        max-width: 600px;
+        width: 100%;
+    }
+    .kili-text {
+        font-size: 40px;
+        color: #ffffff;
+        line-height: 61px;
+        font-family: 'Proxima Nova Alt';
+        font-weight: bold;
+    }
+    .travel-text {
+        color: #ffffff;
+        font-size: 27px;
+        font-weight: bold;
+        font-family: 'Proxima Nova Alt';
+    }
+    .box-info {
+        max-width: 340px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0 26px;
+        box-shadow: 5px 15px 20px #e5e9f6;
+    }
+    .tour-box h2 {
+        font-size: 30px;
+        line-height: 51px;
+        font-weight: 600;
+        font-family: 'Proxima Nova Alt';
+        color: #163235;
+        margin: 11px 0 14px;
+    }
+    .price {
+        font-size: 26px;
+        line-height: 37px;
+        font-weight: 600;
+        font-family: 'Proxima Nova Alt';
+    }
+    .main-customers {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 65.7px;
+        margin-top: 73px;
+    }
+    .customer-text {
+        max-width: 612px;
+        width: 70%;
+    }
+
+} */
+
+
+
