@@ -630,8 +630,8 @@ footer {
     }
     
     .left-guide-box {
-        max-width: 770px;
-        width: 100%;
+        max-width: 855px;
+        width: 122%;
         overflow: hidden;
     }
     .guide-boxes:nth-child(2) {
