@@ -172,6 +172,9 @@
     display: flex;
     align-items: center;
 }
+.block2 {
+    display: none;
+}
 
 
 /* SECTION INFORMATION */
@@ -573,7 +576,7 @@ footer {
     justify-content: center;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 50.7%;
     transform: translate(-50%, -50%);
 }
 .instagram3 {
@@ -1793,5 +1796,36 @@ footer {
             .main-nav {
                 display: none;
             }
+            .block {
+                /* width: 100%;
+                max-width: 876px; */
+                height: 89px;
+                padding: 13px 13px;
+                margin-top: 39px;
+                display: flex;
+                justify-content: space-between;
+                background-color: #ffffff;
+                border-radius: 10px;
+                opacity: 0.8;
+                display: none;
+                align-items: center;
+            }
+            .block2 {
+                 width: 100%;
+                /* max-width: 876px;  */
+                background: #4468E2;
+                height: 89px;
+                padding: 13px 13px;
+                margin-top: 39px;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                background-color: #ffffff;
+                border-radius: 10px;
+                /* opacity: 0.8; */
+                display:flex;
+                align-items: center;
+            }
+            
 
 }
