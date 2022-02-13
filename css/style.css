@@ -40,7 +40,23 @@
     margin: 37px;
     font-size: 22px;
     color: #1C4961;
+    line-height: 40px;
 }
+.menu-list-item:hover {
+    background-color: #4468E2;
+    padding: 5px;
+    color: #ffffff;
+    border-radius: 5px;
+    /* opacity: 0.5; */
+    /* line-height: 20px; */
+    transition: all 0.5s;
+    transition-delay: 0.2s ;
+    /* transition-timing-function: ease-in; */
+    
+    /* transform: rotate(360deg); */
+
+}
+
 .connect-button-link  {
     padding: 6px 20px ;
     font-size: 19px;
@@ -684,13 +700,18 @@ footer {
         padding-top: 65.7px;
         margin-top: 73px;
     }
+    .customer-text {
+        max-width: 712px;
+        width: 45%;
+        margin: 10px;
+    }
 
 }
-/* 
+
 @media (max-width: 1366px) {
     .left-guide-box {
         max-width: 735px;
-        width: 100%;
+        width: 122%;
         overflow: hidden;
     }
     .guide-boxes:nth-child(2) {
@@ -745,7 +766,7 @@ footer {
         width: 70%;
     }
 
-} */
+}
 
 
 @media (max-width: 1024px) {
