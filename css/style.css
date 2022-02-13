@@ -1246,7 +1246,6 @@ footer {
             justify-content: space-evenly;
         
             position: relative;
-            display: visible;
             border-radius: 5px;
         }
         .burger-items {
@@ -1511,7 +1510,6 @@ footer {
                 justify-content: space-evenly;
             
                 position: relative;
-                display: visible;
                 border-radius: 5px;
             }
             .burger-items {
