@@ -676,7 +676,7 @@ footer {
         display: flex;
         flex-direction: column;
         padding: 20px 16px;
-        box-shadow: 10px 40px 50px #e5e9f6;
+        box-shadow: 5px 10px 10px #e5e9f6;
     }
     .tour-box h2 {
         font-size: 32px;
@@ -694,6 +694,12 @@ footer {
     .price {
         font-size: 26px ;
     }
+    .blogs {
+        margin-top: 100px;
+    }
+    .happy {
+        margin-top: 60px;
+    }
     .main-customers {
         display: flex;
         justify-content: space-around;
@@ -701,7 +707,7 @@ footer {
         flex-wrap: wrap;
         padding: 0 20px;
         padding-top: 65.7px;
-        margin-top: 73px;
+        margin-top: 7px;
     }
     .customer-text {
         max-width: 712px;
@@ -761,12 +767,14 @@ footer {
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
+        padding: 0 20px;
         padding-top: 65.7px;
-        margin-top: 73px;
+        margin-top: 7px;
     }
     .customer-text {
-        max-width: 612px;
-        width: 70%;
+        max-width: 712px;
+        width: 45%;
+        margin: 10px;
     }
 
 }
