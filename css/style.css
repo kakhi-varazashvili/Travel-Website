@@ -1811,21 +1811,44 @@ footer {
                 align-items: center;
             }
             .block2 {
-                 width: 100%;
-                /* max-width: 876px;  */
-                background: #4468E2;
-                height: 89px;
-                padding: 13px 13px;
-                margin-top: 39px;
+                margin-top: 10px;
+                width: 100%;
+                /* max-width: 876px; */
+                /* background: #4468E2; */
+                /* height: 89px; */
+                /* padding: 13px 13px; */
+                /* margin-top: 39px; */
                 display: flex;
                 justify-content: space-between;
-                flex-direction: column;
+                flex-direction: row;
                 background-color: #ffffff;
-                border-radius: 10px;
+                /* border-radius: 10px; */
                 /* opacity: 0.8; */
-                display:flex;
+                display: flex;
                 align-items: center;
             }
-            
+            .check-box-boxes {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            .check-box-boxes h4 {
+                font-family: 'Proxima Nova Alt';
+                text-align: center;
+                font-size: 16px;
+                font-weight: 500;
+            }
+            .check-box-boxes span {
+                font-size: 14px;
+                text-align: center;
+            } 
+            .explore {
+                color: #ffffff;
+                font-size: 14px;
+                font-family: 'Proxima Nova Alt';
+                background-color: #4468E2;
+                border-radius: 5px;
+                padding: 8px 10px;
+            }
 
 }
