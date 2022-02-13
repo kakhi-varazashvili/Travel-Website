@@ -716,12 +716,12 @@ footer {
 
 @media (max-width: 1366px) {
     .left-guide-box {
-        max-width: 735px;
+        max-width: 855px;
         width: 122%;
         overflow: hidden;
     }
     .guide-boxes:nth-child(2) {
-        max-width: 600px;
+        max-width: 700px;
         width: 100%;
     }
     .kili-text {
