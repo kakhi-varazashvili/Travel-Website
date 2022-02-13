@@ -175,7 +175,7 @@
     display: flex;
     flex-direction: column;
     padding:0 26px;
-    box-shadow: 10px 40px 50px #E5E9F6;
+    box-shadow: 5px 15px 20px #e5e9f6;
 }
 .box-info h5 {
     font-size: 24px;
@@ -676,7 +676,7 @@ footer {
         display: flex;
         flex-direction: column;
         padding: 20px 16px;
-        box-shadow: 5px 10px 10px #e5e9f6;
+        box-shadow: 5px 15px 20px #e5e9f6;
     }
     .tour-box h2 {
         font-size: 32px;
@@ -728,7 +728,7 @@ footer {
         width: 100%;
     }
     .kili-text {
-        font-size: 40px;
+        font-size: 30px;
         color: #ffffff;
         line-height: 61px;
         font-family: 'Proxima Nova Alt';
@@ -736,7 +736,7 @@ footer {
     }
     .travel-text {
         color: #ffffff;
-        font-size: 27px;
+        font-size: 22px;
         font-weight: bold;
         font-family: 'Proxima Nova Alt';
     }
@@ -783,5 +783,89 @@ footer {
 @media (max-width: 1024px) {
     .menu-list-item {
         margin: 10px;
+    }
+    .travel {
+        color: #ffffff;
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+        font-family: 'Montserat';
+        text-transform: uppercase;
+    }
+    .text-cover {
+        max-width: 522px;
+        width: 100%;
+        height: 98px;
+        overflow: hidden;
+        line-height: 33px;
+        font-weight: normal;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        font-family: 'Proxima Nova Alt';
+        font-size: 18px;
+        color: #ffffff;
+        text-align: center;
+    }
+    .block {
+         width: 80%;
+         margin: 0 auto;
+        /* max-width: 600px;  */
+        height: 50px;
+        padding: 10px 10px;
+        margin-top: 39px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #ffffff;
+        border-radius: 10px;
+        opacity: 0.8;
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .block h4 {
+        font-size: 14px;
+    }
+    .block span {
+        font-size: 12px;
+    }
+    .explore {
+        color: #ffffff ;
+        font-size: 16px;
+        font-family: 'Proxima Nova Alt';
+        background-color:#4468E2 ;
+        border-radius: 15px;
+        padding: 10px 30px;
+
+    }
+    .travel-text {
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Proxima Nova Alt';
+    }
+    .section-info {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 98px;
+        margin-bottom: 100px;
+        padding-top: 29px;
+        /* background-color: rgba(0, 0, 0, 0.2); */
+        /* height: 293.40px; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .box-info {
+        max-width: 340px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 26px;
+        box-shadow: 5px 10px 10px #e5e9f6;
+        margin-bottom: 25px;
     }
 }
